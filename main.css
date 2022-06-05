@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background: rgb(223, 223, 223);
+}
+
+.crossbar {
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crossbar .left ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.crossbar .left ul li {
+    display: inline-block;
+    padding: 0 1px;
+}
+
+.crossbar .right ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.crossbar .right ul li {
+    display: inline-block;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.logo h2 {
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.logo .bell ul {
+    list-style: none;
+}
+
+.logo .bell ul>li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.avatar {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.avatar>img {
+    border-radius: 50%;
+}
+
+.information {
+    text-align: center;
+    display: flex;
+    padding: 0 130px;
+}
+
+.information>span {
+    padding: 0 10px;
+}
+
+.tools {
+    text-align: center;
+    padding: 30px;
+}
+
+.tools .follow {
+    border: 1px solid red;
+    padding: 5px 30px;
+    text-decoration: none;
+    background: red;
+    color: #fff;
+}
+
+.tools .intargram {
+    border: 1px solid rgb(164, 147, 147);
+    padding: 5px 7px;
+}
+
+.tools .caret-down {
+    border: 1px solid rgb(164, 147, 147);
+    padding: 5px 8px;
+}
+
+.note {
+    text-align: center;
+}
